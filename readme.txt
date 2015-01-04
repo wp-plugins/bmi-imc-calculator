@@ -4,11 +4,11 @@ Donate link: http://estoesweb.com/
 Tags: BMI, Calculator, IMC, Health, weight
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple calculator to show your users BMI (Body Mass Index)
+The best calculator to show your users BMI (Body Mass Index)
 
 == Description ==
 
@@ -63,10 +63,17 @@ but you can add new languages in the "languages" folder
 
 == Changelog ==
 
+= 1.0.1 =
+* Replaced folder assets with includes
+* Added icons for Wordpress repository
+
 = 1.0 =
 * First release of the plugin.
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+* Fixed folder structure for best results with Wordpress and added new images for the Wordpress repository
+
 = 1.0 =
-Initial development of the plugin
+* Initial development of the plugin

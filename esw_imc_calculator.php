@@ -31,12 +31,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 add_action( 'wp_enqueue_scripts', 'esw_imccalculator_frontend_scripts_and_styles' );
 function esw_imccalculator_frontend_scripts_and_styles() {
     if ( !is_admin() ) {	    
-	    wp_register_style( 'esw_imc_style' , ESW_PLUGIN_URL . '/assets/css/style.css' );
-	    wp_register_style( 'esw_imc_table' , ESW_PLUGIN_URL . '/assets/css/table.css' );
-	    wp_register_style( 'esw_fontello' , ESW_PLUGIN_URL . '/assets/css/fontello.css' , array() , ESW_VERSION_NUM , 'all' );
+	    wp_register_style( 'esw_imc_style' , ESW_PLUGIN_URL . '/includes/css/style.css' );
+	    wp_register_style( 'esw_imc_table' , ESW_PLUGIN_URL . '/includes/css/table.css' );
+	    wp_register_style( 'esw_fontello' , ESW_PLUGIN_URL . '/includes/css/fontello.css' , array() , ESW_VERSION_NUM , 'all' );
 	   
-	    wp_register_script('esw_maskMoney' , ESW_PLUGIN_URL . '/assets/js/jquery.maskMoney.js' , array('jquery'), '1.0.0', true );
-	    wp_register_script('esw_imc' , ESW_PLUGIN_URL . '/assets/js/imc.js' , array('esw_maskMoney'), '1.0.0', true );
+	    wp_register_script('esw_maskMoney' , ESW_PLUGIN_URL . '/includes/js/jquery.maskMoney.js' , array('jquery'), '1.0.0', true );
+	    wp_register_script('esw_imc' , ESW_PLUGIN_URL . '/includes/js/imc.js' , array('esw_maskMoney'), '1.0.0', true );
 		}
 		
 	}
@@ -93,7 +93,7 @@ class IMC_Calculator_wydget extends WP_Widget {
 
 		if (!$ocultar_header): ?> 
 			<style>
-				.TituloSeccion {background:transparent url("<?php echo ESW_PLUGIN_URL ?>/assets/images/header_background_1.png") no-repeat scroll 0px 0px; background-size: 100%; height:100px;} 
+				.TituloSeccion {background:transparent url("<?php echo ESW_PLUGIN_URL ?>/includes/images/header_background_1.png") no-repeat scroll 0px 0px; background-size: 100%; height:100px;} 
 				.TituloSeccion h4 {color:#FFF !important;padding: 10px;}
 			</style>
 
