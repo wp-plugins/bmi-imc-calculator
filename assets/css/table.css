@@ -1,0 +1,52 @@
+/* TABLA */
+#Tabla_IMC {width:100%;}
+#Tabla_IMC thead {}
+#Tabla_IMC thead th {
+	padding:10px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+	text-align: center;
+}
+#Tabla_IMC th:first-child {}
+
+#Tabla_IMC tr:first-child th:first-child {
+	-moz-border-radius-topleft:8px;
+	-webkit-border-top-left-radius:8px;
+	border-top-left-radius:8px;
+}
+#Tabla_IMC tr:first-child th:last-child {
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	border-top-right-radius:8px;
+}
+
+
+#Tabla_IMC tr {}
+#Tabla_IMC td {padding:10px 5px;}
+
+#Tabla_IMC tfoot td {
+	border-bottom-left-radius: 8px ;
+	border-bottom-right-radius: 8px ;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	padding:10px;
+	border-top:1px solid #e0e0e0;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+	text-align: center;
+}
+	
+/* COLORES */
+.azul {color: #00529B;background-color: #BDE5F8;}
+.verde {color: #4F8A10;background-color: #DFF2BF;}
+.amarillo {color: #9F6000;background-color: #FEEFB3;}
+.rojo {color: #D8000C;background-color: #FFBABA;}
+.rojo-1 {color: #D8000C;background-color: #ff9696;}
+.rojo-2 {color: #D8000C;background-color: #ff8383;}
