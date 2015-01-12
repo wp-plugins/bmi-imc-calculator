@@ -4,11 +4,11 @@ Donate link: http://estoesweb.com/
 Tags: BMI, Calculator, IMC, Health, weight
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best calculator to show your users BMI (Body Mass Index)
+A simple calculator to show your users BMI (Body Mass Index)
 
 == Description ==
 
@@ -53,6 +53,22 @@ This plugin comes by default with:
 
 but you can add new languages in the "languages" folder
 
+= How to use the Shortcode? =
+Add the following text in your text block: [bmi_calculator]
+
+= How to use the Shortcode with atts? =
+Add the following text in your text block: [bmi_calculator hide_table=true hide_styles=true system_type="imperial" section_title="My personal title" ]
+
+
+= Shortcode Attributes  =
+	*hide_table (true / false)
+    *hide_header (true / false)
+    *hide_styles (true / false)
+    *hide_footer (true / false)
+    *system_type  (metric / imperial)
+    *section_title (string)
+
+
 
 == Screenshots ==
 
@@ -63,6 +79,9 @@ but you can add new languages in the "languages" folder
 
 == Changelog ==
 
+= 1.1 =
+* Added shortcode function - [bmi_calculator]
+
 = 1.0.1 =
 * Replaced folder assets with includes
 * Added icons for Wordpress repository
@@ -71,6 +90,9 @@ but you can add new languages in the "languages" folder
 * First release of the plugin.
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Added shortcode function for extensive use of the plugin
 
 = 1.0.1 =
 * Fixed folder structure for best results with Wordpress and added new images for the Wordpress repository

@@ -7,7 +7,7 @@ jQuery(function() {
 		// ******************
 		// SISTEMA METRICO
 		// ******************
-		if ( sistema_metrico == "Metrico" ) {
+		if ( sistema_metrico == "Metrico" || sistema_metrico == "metric" ) {
 			var altura = altura / 100;
 			var imc = peso / ( altura * altura );
 			if(!imc){

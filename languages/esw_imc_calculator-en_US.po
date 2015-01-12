@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: IMC Calculator v1.0.0\n"
+"Project-Id-Version: IMC Calculator v1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-12-31 22:36:18+0000\n"
+"PO-Revision-Date: 2015-01-12 19:32:25+0000\n"
 "Last-Translator: ccarmona <ccarmona@estoesweb.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,162 +20,162 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: esw_imc_calculator.php:70
+#: esw_imc_calculator.php:220
 #@ esw_imc_calculator
 msgid "IMC Calculator"
 msgstr "BMI Calculator"
 
-#: esw_imc_calculator.php:71
+#: esw_imc_calculator.php:221
 #@ esw_imc_calculator
 msgid "Calculadora para determinar el IMC de un paciente"
 msgstr "Calculator to determine the BMI of a person"
 
-#: esw_imc_calculator.php:243
+#: esw_imc_calculator.php:288
 #@ esw_imc_calculator
 msgid "Titulo"
 msgstr "Title"
 
-#: esw_imc_calculator.php:252
+#: esw_imc_calculator.php:297
 #@ esw_imc_calculator
 msgid "Utilizar medidas"
 msgstr "Use the following units"
 
-#: esw_imc_calculator.php:262
+#: esw_imc_calculator.php:307
 #@ esw_imc_calculator
 msgid "<strong>Métrico:</strong> Se usan Centímetros y Kilogramos"
 msgstr "<strong>Metric:</strong> Will use Centimeters and Kilograms"
 
-#: esw_imc_calculator.php:264
+#: esw_imc_calculator.php:309
 #@ esw_imc_calculator
 msgid "<strong>Imperial:</strong> Se usan Pulgadas y Libras"
 msgstr "<strong>Imperial:</strong> Will use Inches and Pounds"
 
-#: esw_imc_calculator.php:288
+#: esw_imc_calculator.php:333
 #@ esw_imc_calculator
 msgid "Ocultar Tabla"
 msgstr "Hide Table"
 
-#: esw_imc_calculator.php:142
+#: esw_imc_calculator.php:110
 #@ esw_imc_calculator
 msgid "Peso"
 msgstr "Weight"
 
-#: esw_imc_calculator.php:148
+#: esw_imc_calculator.php:116
 #@ esw_imc_calculator
 msgid "Altura"
 msgstr "Height"
 
-#: esw_imc_calculator.php:157
+#: esw_imc_calculator.php:125
 #@ esw_imc_calculator
 msgid "Su IMC:"
 msgstr "Your BMI:"
 
-#: esw_imc_calculator.php:166
+#: esw_imc_calculator.php:134
 #@ esw_imc_calculator
 msgid "Rango IMC"
 msgstr "BMI Range"
 
-#: esw_imc_calculator.php:167
+#: esw_imc_calculator.php:135
 #@ esw_imc_calculator
 msgid "Categoría"
 msgstr "Category"
 
-#: esw_imc_calculator.php:173
+#: esw_imc_calculator.php:141
 #@ esw_imc_calculator
 msgid "Menor que 16"
 msgstr "Less than 16"
 
-#: esw_imc_calculator.php:174
+#: esw_imc_calculator.php:142
 #@ esw_imc_calculator
 msgid "Delgadez severa"
 msgstr "Severely underweight"
 
-#: esw_imc_calculator.php:177
+#: esw_imc_calculator.php:145
 #@ esw_imc_calculator
 msgid "De 16 a 18,5"
 msgstr "From 16 to 18.5"
 
-#: esw_imc_calculator.php:178
+#: esw_imc_calculator.php:146
 #@ esw_imc_calculator
 msgid "Delgadez moderada"
 msgstr "Underweight"
 
-#: esw_imc_calculator.php:182
+#: esw_imc_calculator.php:150
 #@ esw_imc_calculator
 msgid "De 18,5 a 25"
 msgstr "From 18.5 to 25"
 
-#: esw_imc_calculator.php:183
+#: esw_imc_calculator.php:151
 #@ esw_imc_calculator
 msgid "Peso normal"
 msgstr "Normal (healthy weight)"
 
-#: esw_imc_calculator.php:187
+#: esw_imc_calculator.php:155
 #@ esw_imc_calculator
 msgid "De 25 a 30"
 msgstr "From 25 to 30"
 
-#: esw_imc_calculator.php:188
+#: esw_imc_calculator.php:156
 #@ esw_imc_calculator
 msgid "Sobrepeso"
 msgstr "Overweight"
 
-#: esw_imc_calculator.php:191
+#: esw_imc_calculator.php:159
 #@ esw_imc_calculator
 msgid "De 30 a 35"
 msgstr "From 30 to 35"
 
-#: esw_imc_calculator.php:192
+#: esw_imc_calculator.php:160
 #@ esw_imc_calculator
 msgid "Obesidad Grado I"
 msgstr "Obese Class I (Moderately obese)"
 
-#: esw_imc_calculator.php:195
+#: esw_imc_calculator.php:163
 #@ esw_imc_calculator
 msgid "De 35 a 40"
 msgstr "From 35 to 40"
 
-#: esw_imc_calculator.php:196
+#: esw_imc_calculator.php:164
 #@ esw_imc_calculator
 msgid "Obesidad Grado II"
 msgstr "Obese Class II (Severely obese)"
 
-#: esw_imc_calculator.php:199
+#: esw_imc_calculator.php:167
 #@ esw_imc_calculator
 msgid "Más de 40"
 msgstr "Over 40"
 
-#: esw_imc_calculator.php:200
+#: esw_imc_calculator.php:168
 #@ esw_imc_calculator
 msgid "Obesidad Grado III"
 msgstr "Obese Class III (Very severely obese)"
 
-#: esw_imc_calculator.php:207
+#: esw_imc_calculator.php:175
 #@ esw_imc_calculator
 msgid "Ver más información relacionada"
 msgstr "View more information about BMI"
 
-#: esw_imc_calculator.php:273
+#: esw_imc_calculator.php:318
 #@ esw_imc_calculator
 msgid "Estilos y Diseño"
 msgstr "Styles and Design"
 
-#: esw_imc_calculator.php:280
+#: esw_imc_calculator.php:325
 #@ esw_imc_calculator
 msgid "Ocultar Header"
 msgstr "Hide header"
 
-#: esw_imc_calculator.php:297
+#: esw_imc_calculator.php:342
 #@ esw_imc_calculator
 msgid "Ocultar Colores de la tabla"
 msgstr "Hide table colors"
 
-#: esw_imc_calculator.php:153
+#: esw_imc_calculator.php:121
 #@ esw_imc_calculator
 msgid "Calcular"
 msgstr "Calculate"
 
-#: esw_imc_calculator.php:306
+#: esw_imc_calculator.php:351
 #@ esw_imc_calculator
 msgid "Ocultar Footer"
 msgstr "Hide footer"
